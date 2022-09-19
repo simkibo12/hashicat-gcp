@@ -2,7 +2,7 @@ module "network" {
   source  = "app.terraform.io/simkibo/network/google"
   version = "3.4.0"
   network_name = "gaurav-network"
-  project_id = "var.project"
+  project_id = "test"
   subnets = [
   {
     subnet_name   = "gaurav-subnet"
