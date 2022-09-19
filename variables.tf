@@ -11,7 +11,7 @@ variable "project" {
 }
 
 variable "project_id" {
-    default     = "test"
+    default     = "p-w3ixydffszwt-0"
   description = "ID of your GCP project. Make sure you set this up before running this terraform code.  REQUIRED."
 }
 
