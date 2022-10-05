@@ -6,6 +6,12 @@
 # prompted to enter it (or define it via config file or command line flags.)
 
 variable "project" {
+    default     = "test"
+  description = "ID of your GCP project. Make sure you set this up before running this terraform code.  REQUIRED."
+}
+
+variable "project_id" {
+    default     = "p-w3ixydffszwt-0"
   description = "ID of your GCP project. Make sure you set this up before running this terraform code.  REQUIRED."
 }
 
